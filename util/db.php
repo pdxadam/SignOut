@@ -26,7 +26,7 @@ function convertOffset($offset){
         return false;
     }
     $offsetHours = $offset / 60;
-    $offsetMInutes = $offset % 60;
+    $offsetMinutes = $offset % 60;
     $isNeg = true;
     if ($offsetHours < 0){
         $isNeg = false;
