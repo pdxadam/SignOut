@@ -1,0 +1,183 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 29, 2018, 11:32:33 AM
+    Author     : AdamMcLain
+*/
+header {
+  background-color: #4056A1;
+  color: #FAED26;
+  font-family: "papyrus, cursive";
+}
+nav {
+  background-color: #4056A1;
+  text-align: right;
+}
+nav:hover a {
+  opacity: 1;
+}
+nav a {
+  color: #CFCBE3;
+  margin: 0px 5px;
+  text-decoration: none;
+  opacity: 0;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.flexContainer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+form {
+  min-width: 48%;
+}
+#signedOut {
+  width: 48%;
+  background-color: #EFE2BA;
+  padding: 10px;
+}
+.signOut {
+  background-color: #4056A1;
+  color: #CFCBE3;
+  align-content: space-between;
+  margin: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 3px 3px #CFCBE3;
+}
+.signOut:hover {
+  background-color: grey;
+}
+.signOut > span {
+  display: inline-block;
+  color: yellow;
+  font-weight:bold;
+  margin: 10px auto;
+  padding: 5px 10px;
+  transition: all 0.3s;
+  font-size: 1.2rem;
+}
+.signOut:hover > span {
+  color: orange;
+}
+input {
+  font-size: 2em;
+  display: block;
+  margin: 10px auto;
+  width: 250px;
+  padding: 5px;
+}
+form {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+fieldset {
+  border: none;
+  margin: 0px auto;
+}
+table {
+  margin: 10px auto;
+  border-collapse: collapse;
+  border: 5px solid #4056A1;
+}
+th {
+  background-color: #4056A1;
+  color: #FAED26;
+  border: 1px solid #CFCBE3;
+}
+tr:nth-child(even) {
+  background-color: #CFCBE3;
+}
+td {
+  border: 1px solid #4056A1;
+  padding: 5px;
+}
+tr:hover {
+  background-color: #FAED26;
+  cursor: pointer;
+}
+.checkHack:checked + .cover {
+  opacity: 1;
+  pointer-events: all;
+}
+.cover {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.83);
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  transition: all 0.3s;
+}
+.cover > div {
+  margin: 0px auto;
+  height: 400px;
+  width: 500px;
+  background-color: white;
+  border: 2px solid #4056A1;
+  position: relative;
+  padding: 10px;
+}
+.cover input {
+  font-size: 16px;
+  display: inline;
+  width: auto;
+}
+.closeButton {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #FAED26;
+  color: white;
+  border-radius: 20px;
+  padding: 2px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  color: black;
+}
+.closeButton:hover {
+  color: #FAED26;
+  background-color: black;
+}
+#time {
+  position: fixed;
+  top: 20px;
+  right: 50px;
+  font-size: 1.2em;
+}
+.explain {
+  font-style: italic;
+  font-size: 0.8em;
+  position: relative;
+  top: -10px;
+}
+@media screen and (max-width: 1000px) {
+    form{
+        min-width: 35%;
+        width: 45%;
+    }
+    .signOut > span{
+        font-size: 2rem;
+        color:orange;
+    }
+}

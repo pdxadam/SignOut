@@ -1,0 +1,41 @@
+[29-Oct-2018 12:26:04 America/Denver] PHP Fatal error:  Call to undefined function signUserIn() in /home4/mclainon/public_html/SignOut/util/request.php on line 10
+[29-Oct-2018 12:26:44 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home4/mclainon/public_html/SignOut/util/db.php:61
+Stack trace:
+#0 /home4/mclainon/public_html/SignOut/util/db.php(61): PDOStatement->execute()
+#1 /home4/mclainon/public_html/SignOut/util/request.php(11): signUserIn('10')
+#2 {main}
+  thrown in /home4/mclainon/public_html/SignOut/util/db.php on line 61
+[29-Oct-2018 12:28:39 America/Denver] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'timeIn' in 'field list'' in /home4/mclainon/public_html/SignOut/util/db.php:61
+Stack trace:
+#0 /home4/mclainon/public_html/SignOut/util/db.php(61): PDOStatement->execute()
+#1 /home4/mclainon/public_html/SignOut/util/request.php(11): signUserIn('10')
+#2 {main}
+  thrown in /home4/mclainon/public_html/SignOut/util/db.php on line 61
+[30-Oct-2018 15:06:31 America/Denver] PHP Fatal error:  Call to undefined function getUserSignIn() in /home4/mclainon/public_html/SignOut/util/request.php on line 21
+[10-Oct-2019 23:27:25 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home4/mclainon/public_html/SignOut/util/db.php on line 176
+[10-Oct-2019 23:28:03 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home4/mclainon/public_html/SignOut/util/db.php on line 176
+[10-Oct-2019 23:28:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home4/mclainon/public_html/SignOut/util/db.php:39
+Stack trace:
+#0 /home4/mclainon/public_html/SignOut/util/db.php(39): PDOStatement->execute()
+#1 /home4/mclainon/public_html/SignOut/util/db.php(178): createUser('cdrogosch', '$2y$10$hPREMQbN...', 'Christy', 'Drogosch')
+#2 {main}
+  thrown in /home4/mclainon/public_html/SignOut/util/db.php on line 39
+[10-Oct-2019 23:30:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1 in /home4/mclainon/public_html/SignOut/util/db.php:39
+Stack trace:
+#0 /home4/mclainon/public_html/SignOut/util/db.php(39): PDOStatement->execute()
+#1 /home4/mclainon/public_html/SignOut/util/db.php(178): createUser('cdrogosch', '$2y$10$Fy3yzh3z...', 'Christy', 'Drogosch')
+#2 {main}
+  thrown in /home4/mclainon/public_html/SignOut/util/db.php on line 39
+[21-Oct-2019 19:26:33 UTC] The offset is: -07:00
+[19-Oct-2021 13:11:45 America/Boise] SQLSTATE[HY000] [2006] MySQL server has gone away
+[19-Oct-2021 13:11:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/util/db.php:86
+Stack trace:
+#0 /home3/mclainon/public_html/SignOut/util/request.php(11): signUserIn('3558')
+#1 {main}
+  thrown in /home3/mclainon/public_html/SignOut/util/db.php on line 86
+[19-Oct-2021 13:11:45 America/Boise] SQLSTATE[HY000] [2002] Connection refused
+[19-Oct-2021 13:11:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/util/db.php:86
+Stack trace:
+#0 /home3/mclainon/public_html/SignOut/util/request.php(11): signUserIn('3558')
+#1 {main}
+  thrown in /home3/mclainon/public_html/SignOut/util/db.php on line 86

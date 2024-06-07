@@ -1,0 +1,284 @@
+[21-Oct-2019 19:21:51 UTC] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: ''
+[21-Oct-2019 19:21:51 UTC] Failed to connect to database in loginAction.php
+[21-Oct-2019 19:23:17 UTC] The offset is: 
+[21-Oct-2019 19:23:17 UTC] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: ''
+[21-Oct-2019 19:23:17 UTC] Failed to connect to database in loginAction.php
+[21-Oct-2019 19:26:07 UTC] 420 is the offset
+[21-Oct-2019 19:26:11 UTC] The offset is: -07:00
+[21-Oct-2019 19:26:17 UTC] The offset is: -07:00
+[21-Oct-2019 19:26:17 UTC] The offset is: -07:00
+[21-Oct-2019 19:26:28 UTC] 420 is the offset
+[21-Oct-2019 19:26:29 UTC] The offset is: -07:00
+[21-Oct-2019 19:26:31 UTC] The offset is: -07:00
+[21-Oct-2019 19:26:31 UTC] The offset is: -07:00
+[23-Oct-2019 17:54:31 UTC] got it!
+[28-Oct-2019 23:15:13 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home4/mclainon/public_html/SignOut/util/db.php on line 308
+[28-Oct-2019 23:20:30 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home4/mclainon/public_html/SignOut/util/db.php on line 308
+[28-Oct-2019 23:20:52 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home4/mclainon/public_html/SignOut/util/db.php on line 308
+[28-Oct-2019 23:21:30 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home4/mclainon/public_html/SignOut/util/db.php on line 308
+[04-Nov-2019 20:47:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ldap_connect() in /home4/mclainon/public_html/SignOut/ldaptest.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/mclainon/public_html/SignOut/ldaptest.php on line 3
+[03-Dec-2019 12:41:17 UTC] SQLSTATE[08004] [1040] Too many connections
+[03-Dec-2019 12:41:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[03-Dec-2019 12:43:38 UTC] SQLSTATE[08004] [1040] Too many connections
+[03-Dec-2019 12:43:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[03-Dec-2019 13:00:12 UTC] SQLSTATE[08004] [1040] Too many connections
+[03-Dec-2019 13:00:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[30-Jan-2020 18:52:09 UTC] got it!
+[24-Feb-2020 17:56:50 UTC] got it!
+[24-Feb-2020 23:35:39 UTC] got it!
+[24-Feb-2020 23:39:06 UTC] got it!
+[24-Feb-2020 23:39:16 UTC] got it!
+[24-Feb-2020 23:39:37 UTC] got it!
+[24-Feb-2020 23:39:55 UTC] got it!
+[03-Jun-2021 08:46:08 America/Boise] SQLSTATE[08004] [1040] Too many connections
+[03-Jun-2021 08:46:08 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[04-Jun-2021 09:28:44 America/Boise] SQLSTATE[08004] [1040] Too many connections
+[04-Jun-2021 09:28:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[26-Aug-2021 11:46:33 America/Boise] got it!
+[26-Aug-2021 11:46:51 America/Boise] got it!
+[07-Sep-2021 17:13:54 America/Boise] got it!
+[07-Sep-2021 17:14:07 America/Boise] got it!
+[27-Sep-2021 17:03:51 America/Boise] got it!
+[27-Sep-2021 17:04:16 America/Boise] got it!
+[27-Sep-2021 17:04:37 America/Boise] got it!
+[04-Oct-2021 15:00:16 America/Boise] got it!
+[14-Oct-2021 06:42:25 America/Boise] SQLSTATE[08004] [1040] Too many connections
+[14-Oct-2021 06:42:30 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[19-Oct-2021 13:11:45 America/Boise] SQLSTATE[HY000] [2002] Connection refused
+[19-Oct-2021 13:11:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[19-Oct-2021 13:13:47 America/Boise] SQLSTATE[HY000] [2002] Connection refused
+[19-Oct-2021 13:13:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[19-Oct-2021 17:12:36 America/Boise] SQLSTATE[08004] [1040] Too many connections
+[19-Oct-2021 17:12:36 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[22-Oct-2021 13:08:08 America/Boise] SQLSTATE[HY000] [2002] Connection refused
+[22-Oct-2021 13:08:08 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[22-Oct-2021 13:10:09 America/Boise] SQLSTATE[HY000] [2002] Connection refused
+[22-Oct-2021 13:10:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[22-Oct-2021 13:20:26 America/Boise] SQLSTATE[HY000] [1040] Too many connections
+[22-Oct-2021 13:20:29 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[24-Oct-2021 12:47:46 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 12:47:46 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[24-Oct-2021 12:47:57 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 12:47:57 America/Boise] failed!
+[24-Oct-2021 12:57:50 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 12:57:50 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[24-Oct-2021 12:57:56 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 12:57:56 America/Boise] failed!
+[24-Oct-2021 13:01:17 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 13:01:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[24-Oct-2021 13:01:29 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 13:01:29 America/Boise] failed!
+[24-Oct-2021 13:03:59 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 13:03:59 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[24-Oct-2021 13:04:44 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 13:04:44 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[24-Oct-2021 13:05:02 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 13:05:02 America/Boise] failed!
+[24-Oct-2021 13:44:43 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 13:44:43 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[24-Oct-2021 13:44:56 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 13:44:56 America/Boise] failed!
+[24-Oct-2021 13:46:56 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 13:46:56 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[24-Oct-2021 13:49:15 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 13:49:15 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[24-Oct-2021 13:49:21 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 13:49:21 America/Boise] failed!
+[24-Oct-2021 13:56:49 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 13:56:49 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[24-Oct-2021 13:56:59 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[24-Oct-2021 13:56:59 America/Boise] failed!
+[25-Oct-2021 23:06:35 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[25-Oct-2021 23:06:35 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[25-Oct-2021 23:06:39 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[25-Oct-2021 23:06:39 America/Boise] failed!
+[26-Oct-2021 08:19:11 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[26-Oct-2021 08:19:11 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[26-Oct-2021 08:19:18 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[26-Oct-2021 08:19:18 America/Boise] failed!
+[26-Oct-2021 08:20:58 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[26-Oct-2021 08:20:58 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[26-Oct-2021 08:21:08 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[26-Oct-2021 08:21:08 America/Boise] failed!
+[26-Oct-2021 08:22:24 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[26-Oct-2021 08:22:24 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[26-Oct-2021 08:22:30 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[26-Oct-2021 08:22:30 America/Boise] failed!
+[26-Oct-2021 08:28:07 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[26-Oct-2021 08:28:07 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[26-Oct-2021 08:34:01 America/Boise] SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: '01:00'
+[26-Oct-2021 08:34:01 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[26-Oct-2021 16:01:20 America/Boise] SQLSTATE[HY000] [1040] Too many connections
+[26-Oct-2021 16:01:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[26-Oct-2021 16:02:02 America/Boise] SQLSTATE[HY000] [1040] Too many connections
+[26-Oct-2021 16:02:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[26-Oct-2021 16:03:21 America/Boise] SQLSTATE[HY000] [2002] Connection refused
+[26-Oct-2021 16:03:21 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[26-Oct-2021 16:04:02 America/Boise] SQLSTATE[HY000] [2002] Connection refused
+[26-Oct-2021 16:04:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[27-Oct-2021 02:01:25 America/Boise] SQLSTATE[HY000] [2002] Connection refused
+[27-Oct-2021 02:01:25 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[01-Dec-2021 17:07:38 America/Boise] got it!
+[01-Dec-2021 17:07:47 America/Boise] got it!
+[19-Jan-2022 02:41:11 America/Boise] SQLSTATE[HY000] [2002] No such file or directory
+[19-Jan-2022 02:41:11 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[20-Feb-2022 10:58:58 America/Boise] SQLSTATE[HY000] [1040] Too many connections
+[20-Feb-2022 10:58:58 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[03-Mar-2022 10:21:23 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[03-Mar-2022 10:21:23 America/Boise] PHP Warning:  Undefined array key "mode" in /home3/mclainon/public_html/SignOut/loginAction.php on line 49
+[03-Mar-2022 10:21:44 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[03-Mar-2022 10:21:44 America/Boise] PHP Warning:  Undefined array key "mode" in /home3/mclainon/public_html/SignOut/loginAction.php on line 49
+[03-Mar-2022 10:21:51 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[03-Mar-2022 10:39:37 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[03-Mar-2022 11:16:33 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[03-Mar-2022 11:16:33 America/Boise] PHP Warning:  Undefined array key "mode" in /home3/mclainon/public_html/SignOut/loginAction.php on line 49
+[08-Mar-2022 10:17:50 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[08-Mar-2022 10:17:50 America/Boise] PHP Warning:  Undefined array key "mode" in /home3/mclainon/public_html/SignOut/loginAction.php on line 49
+[08-Mar-2022 15:47:43 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[08-Mar-2022 15:47:43 America/Boise] PHP Warning:  Undefined array key "mode" in /home3/mclainon/public_html/SignOut/loginAction.php on line 49
+[10-Mar-2022 03:27:17 America/Boise] SQLSTATE[HY000] [1040] Too many connections
+[10-Mar-2022 03:27:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[11-Mar-2022 22:03:48 America/Boise] SQLSTATE[08004] [1040] Too many connections
+[11-Mar-2022 22:03:48 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[14-Mar-2022 16:12:27 America/Boise] SQLSTATE[HY000] [2002] Connection refused
+[14-Mar-2022 16:12:27 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on bool in /home3/mclainon/public_html/SignOut/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/mclainon/public_html/SignOut/index.php on line 22
+[25-Jan-2023 10:32:04 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[25-Jan-2023 10:32:04 America/Boise] PHP Warning:  Undefined array key "mode" in /home3/mclainon/public_html/SignOut/loginAction.php on line 49
+[31-Jan-2023 12:02:57 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[31-Jan-2023 12:02:57 America/Boise] PHP Warning:  Undefined array key "mode" in /home3/mclainon/public_html/SignOut/loginAction.php on line 49
+[16-Nov-2023 10:13:54 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[16-Nov-2023 10:13:54 America/Boise] PHP Warning:  Undefined array key "mode" in /home3/mclainon/public_html/SignOut/loginAction.php on line 49
+[16-Nov-2023 10:14:33 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[16-Nov-2023 10:25:39 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[16-Nov-2023 11:19:09 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[17-Nov-2023 09:54:06 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[17-Nov-2023 09:54:06 America/Boise] PHP Warning:  Undefined array key "mode" in /home3/mclainon/public_html/SignOut/loginAction.php on line 49
+[29-Feb-2024 10:01:49 America/Boise] PHP Warning:  Trying to access array offset on value of type bool in /home3/mclainon/public_html/SignOut/util/db.php on line 215
+[29-Feb-2024 10:04:14 America/Boise] PHP Warning:  Trying to access array offset on value of type bool in /home3/mclainon/public_html/SignOut/util/db.php on line 215
+[29-Feb-2024 10:04:18 America/Boise] PHP Warning:  Trying to access array offset on value of type bool in /home3/mclainon/public_html/SignOut/util/db.php on line 215
+[29-Feb-2024 10:04:23 America/Boise] PHP Warning:  Trying to access array offset on value of type bool in /home3/mclainon/public_html/SignOut/util/db.php on line 215
+[29-Feb-2024 10:04:27 America/Boise] PHP Warning:  Trying to access array offset on value of type bool in /home3/mclainon/public_html/SignOut/util/db.php on line 215
+[07-Jun-2024 15:19:18 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[07-Jun-2024 15:19:18 America/Boise] PHP Warning:  Undefined array key "mode" in /home3/mclainon/public_html/SignOut/loginAction.php on line 49
+[07-Jun-2024 15:23:46 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[07-Jun-2024 15:23:46 America/Boise] PHP Warning:  Undefined array key "mode" in /home3/mclainon/public_html/SignOut/loginAction.php on line 49
+[07-Jun-2024 15:23:54 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[07-Jun-2024 15:24:18 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[07-Jun-2024 15:26:52 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[07-Jun-2024 15:27:23 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38
+[07-Jun-2024 15:27:23 America/Boise] PHP Warning:  Undefined array key "mode" in /home3/mclainon/public_html/SignOut/loginAction.php on line 49
+[07-Jun-2024 15:27:29 America/Boise] PHP Warning:  Undefined variable $offsetMinutes in /home3/mclainon/public_html/SignOut/util/db.php on line 38

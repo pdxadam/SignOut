@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 31, 2018, 8:20:15 AM
+    Author     : AdamMcLain
+*/
+form {
+  display: block;
+}
+input,
+.cover input {
+  font-size: 12px;
+  margin: 2px;
+  width: 100px;
+}
+h1 {
+  font-size: 20px;
+  margin: 2px 5px;
+}
+.button {
+  background-color: #4056A1;
+  color: #FAED26;
+  padding: 2px;
+  cursor: pointer;
+}
+.button:hover {
+  color: #f9b004;
+}
+#leftBar {
+  float: left;
+  width: 150px;
+  background-color: #CFCBE3;
+  border: 1px solid #FAED26;
+  color: #4056A1;
+  min-height: 400px;
+  padding: 2px 5px;
+}
+#leftBar .button {
+  display: block;
+  margin: 2px;
+  border-radius: 5px;
+  padding: 2px;
+}
+.button:active {
+  transform: scale(0.9);
+}
+.delButton {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.delButton:hover {
+  color: #FAED26;
+  border-color: red;
+}
+#chkHideNames:checked + table td:nth-child(1),
+#chkHideNames:checked + table th:nth-child(1),
+#chkHideNames:checked + table td:nth-child(2),
+#chkHideNames:checked + table th:nth-child(2) {
+  display: none;
+}
+#chkHideNames {
+  position: absolute;
+  top: -500px;
+}
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.tab {
+  border: 2px solid navy;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  min-height: 400px;
+}
+.tabBar {
+  margin-top: 5px;
+  top: 0px;
+}
+.tabTitle {
+  padding: 2px;
+  font-family: times, serif;
+  color: #FAED26;
+  font-size: 0.8em;
+  border: 1px solid #4056A1;
+  box-shadow: 1px 1px grey;
+  border-top-right-radius: 5px;
+  display: inline-block;
+  background-color: #4056A1;
+  margin-left: 1px;
+}
+.tabTitle:hover {
+  color: #f9b004;
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Testing Javascript Timezone Getter</title>
+    <script>
+        window.onload = function(){
+            var diff = new Date().getTimezoneOffset();
+            document.getElementById("timezone").innerHTML = diff/60;
+        }
+    </script>
+</head>
+<body>
+    <header>Time zone</header>
+    <div id='timezone'></div>
+</body>
+</html>

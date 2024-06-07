@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 29, 2018, 11:32:33 AM
+    Author     : AdamMcLain
+*/
+
+@darkColor: #4056A1;
+@lightColor: #CFCBE3;
+@emColor: #FAED26;
+@lightBackground: #EFE2BA;
+@emBackground: grey;
+@headerFont: "papyrus, cursive";
+header{
+    background-color: @darkColor;
+    color: @emColor;
+    
+    font-family: @headerFont;
+}
+nav{
+    background-color: @darkColor;    
+    text-align: right;
+}
+nav:hover a{
+    opacity: 1;
+}
+nav a{
+    color: @lightColor;
+    margin: 0px 5px;
+    text-decoration: none;
+    opacity: 0;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.flexContainer{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    border: 1px solid @emBackground;
+    border-radius: 10px;
+    
+}
+form{
+    min-width: 48%;
+}
+#signedOut{
+    width: 48%;
+    background-color: @lightBackground;
+    padding: 10px;
+    
+}
+.signOut{
+    background-color: @darkColor;
+    color: @lightColor;
+    align-content: space-between;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 3px 3px @lightColor;;
+   
+}
+.signOut:hover{
+    background-color: @emBackground;
+}
+.signOut > span{
+    display: inline-block;
+    color: @lightColor;
+    margin: 10px auto;
+    padding: 5px 10px;
+    transition: all 0.3s;
+
+}
+.signOut:hover > span{
+    color: @emColor;
+    
+    
+}
+input{
+    font-size: 2em;
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    padding: 5px;
+    
+    
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+fieldset{
+    border: none;
+    margin: 0px auto;
+}
+table{
+    margin: 10px auto;
+    border-collapse: collapse;
+    border: 5px solid @darkColor;
+    
+}
+th{
+    background-color: @darkColor;
+    color: @emColor;
+    border: 1px solid @lightColor;
+    
+}
+tr:nth-child(even){
+    background-color: @lightColor;
+}
+td{
+    border: 1px solid @darkColor;
+    padding: 5px;
+}
+tr:hover{
+    background-color: @emColor;
+    cursor: pointer;
+}
+.checkHack:checked + .cover{
+    opacity: 1;
+    pointer-events: all;
+}
+.cover{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0,0,0,0.83);
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    transition: all 0.3s;
+}
+.cover > div{
+    margin: 0px auto;
+    height: 400px;
+    width:500px;
+    background-color: white;
+    border: 2px solid @darkColor;
+    position: relative;
+    padding: 10px;
+}
+.cover input{
+    font-size: 16px;
+    display: inline;
+    width: auto;
+}
+.closeButton{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: @emColor;
+    color: white;
+    border-radius: 20px;
+    padding: 2px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+        
+    
+}
+.closeButton:hover{
+    color: @emColor;
+    background-color: black;
+}
+#time{
+    position: fixed; 
+    top: 20px;
+    right: 50px;
+    font-size: 1.2em;
+}
+.explain{
+    font-style: italic;
+    font-size: 0.8em;
+    position: relative; 
+    top: -10px;
+}
