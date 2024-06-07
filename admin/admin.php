@@ -60,11 +60,14 @@
             . "<input name='q' type='text' placeholder='name to search'><input type='submit' value='Set Range'></form>"
             . "<input type='checkbox' id='chkHideNames'><table>"
             . "<tr><th>Name</th><th>Adjusted Name</th><th>Time Out</th><th>Time In</th><th>Duration</th><th>Destination</th><th>Notes</th></tr>");
-    $headerDate;
+    $headerDate = date_create("1/3/1919");//A starting place so the first header will always show
+
     foreach($past as $signout){
+        
         $out = date_create($signout['outTime']);
         $in = date_create($signout['inTime']);
         $pk = $signout['pkSignOut'];
+        
         if (date_format($out, "m/d/Y") != date_format($headerDate, "m/d/Y")){
             $headerDate = $out;
             echo("<tr><th colspan='7'>" . date_format($out, "m/d/Y") . "</th></tr>");

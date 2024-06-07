@@ -12,8 +12,8 @@ window.onload = function(){
     document.getElementById("default").focus();
     try{
         var offset = new this.Date().getTimezoneOffset();
-        this.document.getElementById("tzOffset").value = "480";
-        //this should put the offset into that element, but it isn't working on the pi
+        this.document.getElementById("tzOffset").value = offset;
+        //This didn't work on the pi -- I had to put in a literal number.
     }
     catch(error){
         
