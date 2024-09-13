@@ -43,6 +43,10 @@ form {
   background-color: #EFE2BA;
   padding: 10px;
 }
+.signingOut {
+  opacity: 0.4;
+  pointer-events: none;
+}
 .signOut {
   background-color: #4056A1;
   color: #CFCBE3;
@@ -60,15 +64,13 @@ form {
 }
 .signOut > span {
   display: inline-block;
-  color: yellow;
-  font-weight:bold;
+  color: #CFCBE3;
   margin: 10px auto;
   padding: 5px 10px;
   transition: all 0.3s;
-  font-size: 1.2rem;
 }
 .signOut:hover > span {
-  color: orange;
+  color: #FAED26;
 }
 input {
   font-size: 2em;
@@ -170,14 +172,4 @@ tr:hover {
   font-size: 0.8em;
   position: relative;
   top: -10px;
-}
-@media screen and (max-width: 1000px) {
-    form{
-        min-width: 35%;
-        width: 45%;
-    }
-    .signOut > span{
-        font-size: 2rem;
-        color:orange;
-    }
 }
