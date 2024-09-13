@@ -19,11 +19,16 @@ window.onload = function(){
         
     }
 }
+function presubmit(){
+    document.getElementById("cmdSubmit").setAttribute("disabled", true);
+
+}
 function signIn(){
     var len = this.id.length;    
     var signin = this.id.substring(7, len);
     var params = "s=" + signin;
     var el = this;
+    el.classList.add("signingOut");
     
     sendRequest("signin", params, function(response){
        if (response == "TRUE"){

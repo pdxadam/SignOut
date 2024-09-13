@@ -7,12 +7,12 @@ if (isset($_SESSION['pkUser'])){
     $_SESSION['mode'] = "signOut";
    echo("<div class='flexContainer'>");
 echo('
-<form action="signOut.php" method="POST">
+<form action="signOut.php" method="POST" onsubmit="presubmit();">
 <fieldset>
         <input type="text" autocomplete = "off" autocorrect="off" spellcheck="false" placeholder="Name" name="signOutName" id="default" required>
         <input type="text" autocomplete = "off" placeholder = "Destination" name = "destination" id = "destination">
         <span class="explain">Leave destination blank for restroom. Your answer is only visible to the teacher.</span>
-        <input type="submit" value="Sign out of Class">
+        <input type="submit" value="Sign out of Class" id = "cmdSubmit">
         </fieldset>
         </form>
         <div id="signedOut">
